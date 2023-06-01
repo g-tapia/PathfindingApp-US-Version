@@ -13,7 +13,7 @@ I took various library functions and created something complex, completely off m
 1. [Introduction](#introduction)
 2. [Features](#features)
     - [Speed Adjustment](#speed-adjustment)
-    - [Resizing of Edges and Nodes](#resizing-of-edges-and-nodes)
+    - [Resizing Feature](#resizing-feature)
     - [Pause/Resume Animation](#pause-resume-animation)
 3. [Algorithms](#algorithms)
 4. [Animations](#Animations)
@@ -31,7 +31,7 @@ Welcome to the Pathfinding App documentation. The Pathfinding App is an interact
 
 The Speed Adjustment feature provides an intuitive slider control, allowing users to control the speed of the algorithm execution in real-time. This is helpful for both learning purposes, by slowing down to understand each step, and for time efficiency, by speeding up the algorithm once the concept is understood.
 
-### Resizing feature
+### Resizing Feature
 
 The Resizing feature allows users to manipulate the size of nodes and edges in the graph.This allows users with the ability to adjust the size of nodes and edges in the graph. You can modify the size of these elements, making the graph larger, smaller, or adjust it to your preferred size to fit your screen. This functionality allows for a more personalized viewing experience.
 
