@@ -252,9 +252,9 @@ Animated pathfinding applications can be a highly valuable tool for learning, pa
 
 3. **Comparison and Analysis**: By visualizing different pathfinding algorithms side by side, students can easily compare and analyze their performance. They can see how different algorithms handle the same problem, how they differ in terms of speed, efficiency, and path quality, and how they react to different constraints.
 
-4. **Promotes Critical Thinking**: Using animated pathfinding applications encourages students to think critically. They can observe the algorithm's behavior, predict its next steps, and even debug it if it doesn't behave as expected. This engagement promotes a deeper understanding of the algorithm's inner workings.
+4. **Promotes Critical Thinking**: Using animated pathfinding applications encourages students to think critically. They can observe the algorithm's behavior and predict its next steps. This engagement promotes a deeper understanding of the algorithm's inner workings.
 
-5. **Versatility in Learning Scenarios**: These applications can be used in a variety of educational contexts. In a classroom, they can be used to demonstrate concepts during a lecture, or students can use them individually or in groups for assignments or projects. In textbooks or online resources, they can provide interactive content to supplement written material.
+5. **Versatility in Learning Scenarios**: This application can be used in a variety of educational contexts. In a classroom, they can be used to demonstrate concepts during a lecture, or students can use them individually or in groups for assignments or projects. In textbooks or online resources, they can provide interactive content to supplement written material.
 
 Incorporating animated pathfinding applications in learning environments can stimulate students' interest in algorithms and computational thinking, enhancing their learning experience and understanding of these key concepts.
 
