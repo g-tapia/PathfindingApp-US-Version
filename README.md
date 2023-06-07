@@ -6,7 +6,7 @@ Video quality looks better not recorded (max 1080p recorded). Speed adjustments 
 
 Additionally, there were some complex issues that I came across, had to think outside the box to overcome them. Especiallly, since I had no projects to reference from.
 
-I took various library functions and created something complex, completely off my own imagination. Roughly, 1000 lines of code.
+I took various library functions and created something complex, completely off my own imagination. Roughly, 1000 lines of code. I will release the code once I organize it, and optimize it.
 
 ## Table of Contents
 
