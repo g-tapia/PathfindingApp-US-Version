@@ -1,12 +1,12 @@
 # PathfindingApp (US-Version) Demonstration
 
-Note: This project was difficult to put together, it was done before the GPT era. It was challenging, but rewarding.
+Welcome to this repository, which showcases a Python application that's entirely my own creation, from the initial design right down to the final development. A significant part of the project was dedicated to crafting the user interface and its functionalities.
 
-Video quality looks better not recorded (max 1080p recorded). Speed adjustments vary by performance of your computer.
+I want to note that this project wasn't a walk in the park. It came into being before the advent of the GPT era, posing a series of challenges. Yet, it was these very challenges that made the entire journey so rewarding.
 
-Additionally, there were some complex issues that I came across, had to think outside the box to overcome them. Especiallly, since I had no projects to reference from.
+Since this demonstration is recorded, the quality is slightly butchered, having a max of 1080p to showcase.
 
-I took various library functions and created something complex, completely off my own imagination. Roughly, 1000 lines of code. I will release the code once I organize it, and optimize it.
+While developing this project, I stumbled upon various intricate issues. With no reference projects to lean on, I had to think creatively to navigate around these hurdles. It was a demanding process, but it allowed me to grow as a developer.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ I took various library functions and created something complex, completely off m
 2. [Features](#features)
     - [Speed Adjustment](#speed-adjustment)
     - [Resizing Feature](#resizing-feature)
-    - [Pause/Resume Animation](#pause-resume-animation)
+    - [Pause/Resume Animation](#pause/resume-animation)
 3. [Algorithms](#algorithms)
 4. [Animations](#Animations)
 5. [Usage](#usage)
@@ -29,7 +29,9 @@ Welcome to the Pathfinding App documentation. The Pathfinding App is an interact
 
 ### Speed Adjustment
 
-The Speed Adjustment feature provides an intuitive input control, allowing users to control the speed of the algorithm execution in real-time. This is helpful for both learning purposes, by slowing down to understand each step, and for time efficiency, by speeding up the algorithm once the concept is understood.
+The Speed Adjustment feature provides an intuitive input control, allowing users to control the speed of the algorithm execution in real-time. This is helpful for both learning purposes, by slowing down to understand each step, and for time efficiency, by speeding up the algorithm once the concept is understood. 
+
+Please note that the speed of the animation various by computer. If you have a high quality computer, your animation will render extremely fast.
 
 ### Resizing Feature
 
