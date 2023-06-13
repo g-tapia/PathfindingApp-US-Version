@@ -14,7 +14,7 @@ While developing this project, I stumbled upon various intricate issues. With no
 2. [Features](#features)
     - [Speed Adjustment](#speed-adjustment)
     - [Resizing Feature](#resizing-feature)
-    - [Pause/Resume Animation](#pause/resume-animation)
+    - [Pause/Resume Animation](#pause-and-resume-functionality)
 3. [Algorithms](#algorithms)
 4. [Animations](#Animations)
 5. [Usage](#usage)
@@ -43,7 +43,7 @@ https://github.com/g-tapia/PathfindingApp-US-Version--Demonstration/assets/78235
 
 
 
-### Pause/Resume Animation
+### Pause And Resume Functionality
 
 The Pause/Resume Animation feature enables users to control the visualization flow of the algorithm. This function allows users to pause the algorithm at any time to study the current state, and then resume when ready. 
 
