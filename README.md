@@ -16,7 +16,7 @@ While developing this project, I stumbled upon various intricate issues. With no
     - [Resizing Feature](#resizing-feature)
     - [Pause/Resume Animation](#pause-and-resume-functionality)
 3. [Algorithms](#algorithms)
-4. [Animations](#Animations)
+4. [Animations](#animations)
 5. [Usage](#usage)
 6. [Contributing](#contributing)
 7. [License](#license)
@@ -60,7 +60,8 @@ The Pathfinding App supports a wide array of pathfinding algorithms, including b
 
 Each algorithm comes with a brief description, use case scenarios, and pros and cons to provide a better understanding of its working principles and applications.
 
-## Animations (Search is done alphabetically)
+## Animations
+**Please note, all searches are done alphabetically!**
 
 ## Color Meaning
 1. **Color red (in visited list)**
