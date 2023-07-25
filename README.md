@@ -1,7 +1,27 @@
 # Summary
 
-This application implements and visualises several path finding algorithms on a
-fixed set of nodes, with start and target nodes specified by the user.
+Welcome to this repository, which showcases a Python application that's entirely my own creation, from the initial design, right down to the final development. This application implements and visualizes several path-finding algorithms on a fixed set of nodes, with start and target nodes specified by the user. A significant part of the project was dedicated to crafting the user interface and its functionalities.
+
+I want to note that this project wasn't a walk in the park. It came into being before the advent of the GPT era, posing a series of challenges. Yet, it was these very challenges that made the entire journey so rewarding.
+
+Since this demonstration is recorded, the quality is slightly butchered, having a max of 1080p to showcase.
+
+While developing this project, I stumbled upon various intricate issues. With no reference projects to lean on, I had to think creatively to navigate these hurdles. It was a demanding process, but it allowed me to grow as a developer.
+
+Note: click on animations, via the table of contents, to see the recorded demonstrations. 
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+    - [Speed Adjustment](#speed-adjustment)
+    - [Resizing Feature](#resizing-feature)
+    - [Pause/Resume Animation](#pause-and-resume-functionality)
+3. [Algorithms](#algorithms)
+4. [Animations](#animations)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 # Quickstart
 
@@ -42,31 +62,9 @@ pip install pyflakes
 pyflakes path-finding-app.py
 ```
 
-
 # PathfindingApp (US-Version) Demonstration
 
-Welcome to this repository, which showcases a Python application that's entirely my own creation, from the initial design right down to the final development. A significant part of the project was dedicated to crafting the user interface and its functionalities.
-
-I want to note that this project wasn't a walk in the park. It came into being before the advent of the GPT era, posing a series of challenges. Yet, it was these very challenges that made the entire journey so rewarding.
-
-Since this demonstration is recorded, the quality is slightly butchered, having a max of 1080p to showcase.
-
-While developing this project, I stumbled upon various intricate issues. With no reference projects to lean on, I had to think creatively to navigate around these hurdles. It was a demanding process, but it allowed me to grow as a developer.
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Features](#features)
-    - [Speed Adjustment](#speed-adjustment)
-    - [Resizing Feature](#resizing-feature)
-    - [Pause/Resume Animation](#pause-and-resume-functionality)
-3. [Algorithms](#algorithms)
-4. [Animations](#animations)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
-
-## Introduction
+### Introduction
 
 Welcome to the Pathfinding App documentation. The Pathfinding App is an interactive tool that enables users to visualize and understand various pathfinding algorithms in a user-friendly interface. It features adjustable speed settings, resizable nodes and edges, and a pause/resume animation feature to control visualization. 
 
