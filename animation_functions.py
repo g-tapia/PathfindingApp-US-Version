@@ -1,14 +1,12 @@
 import heapq
 import networkx as nx
 
-from graph import Graph
 from state import BFS, DFS, BESTFS, ASTAR, BEAM, DIJKSTRA, State
 
-def animate(frame_number, frame, graph):
+def animate(frame_number, frame, graph, self):
     """Matplotlib function used for animation"""
 
-    global number_of_frames
-    number_of_frames = frame_number
+    self.number_of_frames = frame_number
 
     actions = {
         "current": set_current_color,
@@ -37,7 +35,7 @@ def animate(frame_number, frame, graph):
         show_current_label(graph)
 
     return [graph.ax]
-  
+
 
 def show_current_label(graph):
     if graph.current_state is None:
@@ -55,6 +53,7 @@ def show_current_label(graph):
         graph.legend.remove()
 
     graph.legend = graph.ax.text(-0.90, 0.08, textstr, fontsize=graph.node_font_size, bbox=props)
+
 
 def show_final_label(goal, graph):
     current = goal
@@ -82,11 +81,13 @@ def show_final_label(goal, graph):
 
     graph.ax.text(-0.90, 0.08, textstr, fontsize=graph.node_font_size, bbox=props)
 
+
 def clear_previous_neighbors_textboxes(graph):
     for neighbor in graph.current_neighbors:
         neighbor.textbox.set_visible(False)
 
     graph.current_neighbors = []
+
 
 def revert_edges_to_original_color(graph):
     for edge in graph.decolor_edges:
@@ -94,6 +95,7 @@ def revert_edges_to_original_color(graph):
         edge.set_color("black")
 
     graph.decolor_edges = []
+
 
 def set_current_color(frame, graph):
     state = frame["current"]
@@ -111,6 +113,7 @@ def set_current_color(frame, graph):
             heapq.heappop(graph.openlist)
 
     graph.current_state = state
+
 
 def set_analyzing_color(frame, graph):
     tup = list(frame.keys())[1]
@@ -156,6 +159,7 @@ def set_analyzing_color(frame, graph):
     graph.decolor_edges.append(graph.edge_artist_object[edge])
     graph.current_neighbors.append(state)
 
+
 def simulate_sort(frame, graph):
     current, neighbor, counter = frame["simulate sort"]
     edge = current.name + "-" + neighbor.name
@@ -174,11 +178,13 @@ def simulate_sort(frame, graph):
 
     graph.decolor_edges.append(graph.edge_artist_object[edge])
 
+
 def set_visited_color(frame, graph):
     state = frame["visited"]
 
     graph.visited.append(state)
     graph.node_artist_object[state.name].set_color("red")
+
 
 def set_open_color(frame, graph):
     state = frame["add to open list"]
@@ -194,6 +200,7 @@ def set_open_color(frame, graph):
             heapq.heappush(graph.openlist, state)
 
     graph.node_artist_object[state.name].set_color("green")
+
 
 def set_gcost_neighbor_path_color(frame, graph):
     state, edge, gcost = frame["gcost neighbor"]
@@ -211,6 +218,7 @@ def set_gcost_neighbor_path_color(frame, graph):
         graph.gcost_labels.append(textbox)
 
     graph.gcost_state_colors.append([graph.node_artist_object[state.name], edge])
+
 
 def set_gcost_open_path_color(frame, graph):
     state, edge, gcost = frame["gcost open"]
@@ -232,6 +240,7 @@ def set_gcost_open_path_color(frame, graph):
 
     graph.gcost_state_colors.append([graph.node_artist_object[state.name], edge])
 
+
 def set_gcost_textbox(state, graph, gcost, path_type):
     x, y = graph.node_positions[state.name]
     y = y - 0.35 if path_type == "open" else y - 0.20
@@ -251,9 +260,10 @@ def set_gcost_textbox(state, graph, gcost, path_type):
         bbox=props,
         fontweight="demibold",
         backgroundcolor="wheat",
-        )
+    )
 
     return textbox
+
 
 def set_pruned_edges(frame, graph):
     current, neighbor = frame["pruning"]
@@ -274,6 +284,7 @@ def set_pruned_edges(frame, graph):
 
     graph.edge_labels[edge][(current.name, neighbor.name)].remove()
 
+
 def set_changing_parent_color(frame, graph):
     state, edge = frame["changing parent"]
 
@@ -284,6 +295,7 @@ def set_changing_parent_color(frame, graph):
     graph.edge_artist_object[edge].set_linestyle("solid")
 
     graph.openlist_state = [graph.node_artist_object[state.name], graph.edge_artist_object[edge]]
+
 
 def set_changing_parent_to_color(frame, graph):
     state, edge, openlist_neighbor = frame["changing parent to"]
@@ -302,6 +314,7 @@ def set_changing_parent_to_color(frame, graph):
     old_edge.set_linestyle("solid")
 
     graph.gcost_state_colors.append([graph.node_artist_object[state.name], graph.edge_artist_object[edge]])
+
 
 def set_to_original_colors(frame, graph):
     changed_already = set()
@@ -330,6 +343,7 @@ def set_to_original_colors(frame, graph):
 
     graph.gcost_labels = []
 
+
 def set_goal_color(frame, graph):
     state = frame["goal found"]
 
@@ -340,10 +354,12 @@ def set_goal_color(frame, graph):
 
     graph.node_artist_object[state.name].set_color("gold")
 
+
 def set_path_color(frame, graph):
     state = frame["path"]
 
     graph.node_artist_object[state.name].set_color("gold")
+
 
 def no_path_found(frame, graph):
     initial, goal = frame["no path found"]
