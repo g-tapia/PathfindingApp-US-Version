@@ -1,6 +1,6 @@
 # Summary
 
-Welcome to this repository, which showcases a Python application that's entirely my own creation, from the initial design, right down to the final development. This application implements and visualizes several path-finding algorithms on a fixed set of nodes, with start and target nodes specified by the user. A significant part of the project was dedicated to crafting the user interface and its functionalities.
+Welcome to my repository, which showcases a Python application that's entirely my own creation, from the initial design, right down to the final development. This application implements and visualizes several path-finding algorithms on a fixed set of nodes, with start and target nodes specified by the user. A significant part of the project was dedicated to crafting the user interface and its functionalities.
 
 I want to note that this project wasn't a walk in the park. It came into being before the advent of the GPT era, posing a series of challenges. Yet, it was these very challenges that made the entire journey so rewarding.
 
@@ -8,7 +8,17 @@ Since this demonstration is recorded, the quality is slightly butchered, having 
 
 While developing this project, I stumbled upon various intricate issues. With no reference projects to lean on, I had to think creatively to navigate these hurdles. It was a demanding process, but it allowed me to grow as a developer.
 
-Note: click on animations, via the table of contents, to see the recorded demonstrations. 
+**Note: click on animations, via the table of contents, to see the recorded demonstrations.**
+
+**Star the repository:** If you find our project interesting, consider giving it a star! This helps increase its visibility and allows more like-minded contributors to discover it.
+
+**Fork the repository:** You can create a copy of the project in your own GitHub account by forking it. This allows you to freely experiment with changes without affecting the original project.
+
+**Pull Requests:** If you have changes that you would like to contribute to the project, please make a pull request. I welcome all contributions, no matter how small! Before making a pull request, please ensure you have merged the latest changes from the 'main' branch into your fork.
+
+**Issues:** If you encounter any bugs or have feature requests, you can use the 'Issues' tab in GitHub to report them. Please provide as much detail as possible to help me understand the problem.
+
+**Spread the word:** If you know others who might be interested in my project, please share it with them. The more people we have contributing, the better the project will be!
 
 ## Table of Contents
 
