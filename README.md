@@ -2,11 +2,9 @@
 
 Welcome to my repository, which showcases a Python application that's entirely my own creation, from the initial design, right down to the final development. This application implements and visualizes several path-finding algorithms on a fixed set of nodes, with start and target nodes specified by the user. A significant part of the project was dedicated to crafting the user interface and its functionalities.
 
-I want to note that this project wasn't a walk in the park. It came into being before the advent of the GPT era, posing a series of challenges. Yet, it was these very challenges that made the entire journey so rewarding.
+I want to note that this project was not a walk in the park. It was created before the advent of the GPT era, presenting a host of challenges. During its development, I encountered a range of intricate issues. With no reference projects to rely on, I had to employ creative thinking to navigate these hurdles. It was a demanding journey that shaped me into a more competent developer. However, it was these very challenges that made the entire journey so rewarding.
 
 There is a video demo below (click on animations via the table of contents). Since this demonstration is recorded, the quality is slightly butchered, having a max of 1080p to showcase.
-
-While developing this project, I stumbled upon various intricate issues. With no reference projects to lean on, I had to think creatively to navigate these hurdles. It was a demanding process, but it allowed me to grow as a developer.
 
 **Star the repository:** If you find our project interesting, consider giving it a star! This helps increase its visibility and allows more like-minded contributors to discover it.
 
