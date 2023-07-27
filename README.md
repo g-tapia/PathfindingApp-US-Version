@@ -16,7 +16,7 @@ I want to note that this project was not a walk in the park. It was created befo
 6. [Features](#features)
     - [Speed Adjustment](#speed-adjustment)
     - [Resizing Feature](#resizing-feature)
-    - [Pause/Resume Animation](#pause-resume-animation)
+    - [Pause/Resume Animation](#pause-and-resume-functionality)
 7. [Algorithms](#algorithms)
 8. [Animations](#animations)
 9. [Usage](#usage)
