@@ -1,10 +1,29 @@
-# Summary
+# PathfindingApp (US-Version)
 
 Welcome to my repository, which showcases a Python application that's entirely my own creation, from the initial design, right down to the final development. This application implements and visualizes several path-finding algorithms on a fixed set of nodes, with start and target nodes specified by the user. A significant part of the project was dedicated to crafting the user interface and its functionalities.
 
 I want to note that this project was not a walk in the park. It was created before the advent of the GPT era, presenting a host of challenges. During its development, I encountered a range of intricate issues. With no reference projects to rely on, I had to employ creative thinking to navigate these hurdles. It was a demanding journey that shaped me into a more competent developer. However, it was these very challenges that made the entire journey so rewarding.
 
-There is a video demo below (click on animations via the table of contents). Since this demonstration is recorded, the quality is slightly butchered, having a max of 1080p to showcase.
+**Note:** There is a video demo below (click on animations via the table of contents). This demonstration is recorded, so the quality is slightly butchered, having a max of 1080p to showcase.
+
+## Table of Contents
+
+1. [Support](#support)
+2. [Quickstart](#quickstart)
+3. [Contributing](#contributing)
+4. [Introduction](#introduction)
+5. [PathfindingApp (US-Version) Demonstration](#pathfindingapp-us-version-demonstration)
+6. [Features](#features)
+    - [Speed Adjustment](#speed-adjustment)
+    - [Resizing Feature](#resizing-feature)
+    - [Pause/Resume Animation](#pause-resume-animation)
+7. [Algorithms](#algorithms)
+8. [Animations](#animations)
+9. [Usage](#usage)
+10. [License](#license)
+
+
+# Support
 
 **Star the repository:** If you find our project interesting, consider giving it a star! This helps increase its visibility and allows more like-minded contributors to discover it.
 
@@ -15,19 +34,6 @@ There is a video demo below (click on animations via the table of contents). Sin
 **Issues:** If you encounter any bugs or have feature requests, you can use the 'Issues' tab in GitHub to report them. Please provide as much detail as possible to help me understand the problem.
 
 **Spread the word:** If you know others who might be interested in my project, please share it with them. The more people we have contributing, the better the project will be!
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Features](#features)
-    - [Speed Adjustment](#speed-adjustment)
-    - [Resizing Feature](#resizing-feature)
-    - [Pause/Resume Animation](#pause-and-resume-functionality)
-3. [Algorithms](#algorithms)
-4. [Animations](#animations)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
 
 # Quickstart
 
