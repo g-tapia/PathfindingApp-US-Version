@@ -12,7 +12,7 @@ I want to note that this project was not a walk in the park. It was created befo
 2. [Quickstart](#quickstart)
 3. [Contributing](#contributing)
 4. [Introduction](#introduction)
-5. [PathfindingApp (US-Version) Walkthrough](#pathfindingapp-us-version-walkthrough)
+5. [Application Walkthrough](#application-walkthrough)
 6. [Features](#features)
     - [Speed Adjustment](#speed-adjustment)
     - [Resizing Feature](#resizing-feature)
@@ -74,7 +74,7 @@ pip install pyflakes
 pyflakes path-finding-app.py
 ```
 
-# PathfindingApp (US-Version) Walkthrough
+# Application Walkthrough
 
 ### Introduction
 
