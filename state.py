@@ -9,7 +9,7 @@ import pandas as pd
 """
 This section contains the algorithms used for animation
 - when an algorithm is used, it returns a dictionary "frame" that is used to pass to the animation function
-- the dictionary generates the number of frames and what each frame and the action of each frame
+- the dictionary generates the number of frames and the action of each frame
 - example: frame number : visited so color x
 """
 
